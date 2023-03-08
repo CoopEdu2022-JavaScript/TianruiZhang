@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .background {
+      display: grid;
+      grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+      background-color: blue;
+      border: 1px solid black;
+      grid-gap: 2px;
+      text-align: center;
+    }
+    .item1 {
+
+      grid-area: 1/1/2/4;
+      background-color: cornflowerblue;
+      text-align: center;
+    }
+    .item2 {
+      grid-column: 1/2;
+      grid-row: 2/4;
+      background-color: cornflowerblue;
+      text-align: center;
+    }
+    .item3 {
+      grid-column: 2/3;
+      grid-row: 2/3;
+      background-color: cornflowerblue;
+      text-align: center;
+    }
+    .item4 {
+      grid-column: 3/4;
+      grid-row: 2/3;
+      background-color: cornflowerblue;
+      text-align: center;
+    }
+    .item5 {
+      grid-column: 2/4;
+      grid-row: 3/4;
+      background-color: cornflowerblue;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="background">
+    <div class="item1">111</div>
+    <div class="item2">222</div>
+    <div class="item3">333</div>
+    <div class="item4">444</div>
+    <div class="item5">555</div>
+  </div>
+</body>
+</html>
