@@ -10,8 +10,12 @@ div.icon {
     width: 100px;
     height: 100px;
     position: fixed;
-    float: left;
 
 
+
+}
+.item{
+    height:300px;
+    overflow-y:auto;
 }
 
