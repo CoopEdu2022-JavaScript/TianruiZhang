@@ -1,8 +1,10 @@
-* {
-    border: black 1px solid;
-}
+
 ul {
     list-style: none;
+
+}
+li {
+    border: black 1px solid;
 }
 div.icon {
     width: 100px;
