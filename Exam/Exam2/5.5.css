@@ -1,6 +1,14 @@
 * {
     border: black 1px solid;
 }
-ol {
+ul {
     list-style: none;
 }
+div.icon {
+    width: 100px;
+    height: 100px;
+
+    float: left;
+
+}
+
