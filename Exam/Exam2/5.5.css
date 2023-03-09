@@ -1,0 +1,25 @@
+* {
+    border: black 1px solid;
+}
+.js-documentation-left-side-box {
+    width: 10px;
+    height: 100%;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+.item1 {
+    width: 100%;
+    height: 100px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 10px;
+}
+.item2 {
+    width: 100%;
+    height: 100px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 10px;
+}
