@@ -134,17 +134,16 @@ div.weather-now-box {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-
+    line-height: 30px;
+    height: 20px;
+    text-align: center;
 
 }
 .weather-now-topic-icon {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 390px;
-    height: 28px;
-    left: 0;
-    top: 0;
+
 }
 .all-weather-now-item {
     display: grid;
@@ -201,9 +200,8 @@ div.weather-now-box {
     justify-content: flex-start;
     align-items: center;
     width: 390px;
-    height: 28px;
-    left: 0;
-    top: 0;
+    height: 35px;
+    line-height: 20px;
 }
 .all-temperature-and-weather-item{
     display: flex;
@@ -252,6 +250,8 @@ div.weather-now-box {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
+
+    height: 30px;
 }
 .all-temperature-and-weather-item {
     display: flex;
