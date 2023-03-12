@@ -6,6 +6,7 @@
 div.background{
     display: flex;
     flex-direction: column;
+    background: #FCF1CC;
 }
 div.top_background {
 
@@ -13,7 +14,7 @@ div.top_background {
     flex-direction: row;
     background: #FCF1CC;
     width: 390px;
-    height: 844px;
+    height: 244px;
 
 
 
@@ -39,15 +40,36 @@ div.phone_icon_box {
 }
 div.address_date_box {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 
     align-items: center;
-    width: 244px;
+    width: 390px;
     height: 28px;
     left: 29px;
     top: 45px;
     background: #FCF1CC;
 
+
+}
+
+.address_box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-style: normal;
+
+    font-size: 20px;
+    line-height: 28px;
+}
+.address_city{
+    font-weight: bolder;
+}
+.today{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D8A72F;
 }
 div.icon {
     left: 87.44%;
@@ -57,7 +79,7 @@ div.icon {
 }
 div.date_time_temperature_box {
     display: flex;
-    flex-direction: column;
+
     justify-content: flex-end;
 
     width: 370px;
@@ -65,6 +87,17 @@ div.date_time_temperature_box {
     left: 0;
     top: 0;
     background: #FCF1CC;
+}
+.date_range{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sun-and-cloud{
+    background-image: url("/");
+}
+.system-point{
+    text-align: center;
 }
 div.underneath_background {
     width: 390px;
@@ -78,12 +111,172 @@ div.underneath_background {
 }
 div.weather_now_box {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.weather_now_topic {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 390px;
-    height: 100px;
+    height: 28px;
     left: 0;
     top: 0;
 
+}
+.weather_now_topic_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+.weather_now_topic_icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 390px;
+    height: 28px;
+    left: 0;
+    top: 0;
+}
+.all_weather_now_item {
+    display: grid;
+    grid-template-columns: repeat(3,108px);
+    grid-template-rows: repeat(2,80px);
+    grid-auto-flow: column;
+    grid-gap: 15px;
+}
+.weather_now_item1, .weather_now_item2, .weather_now_item3, .weather_now_item4, .weather_now_item5, .weather_now_item6 {
+    width: 108px;
+    height: 80px;
+    left: 141px;
+    top: 385px;
+
+    background: #FFFFFF;
+    box-shadow: 0 0 8px rgba(214, 162, 42, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.weather_now_item1_text1, .weather_now_item2_text1, .weather_now_item3_text1, .weather_now_item4_text1, .weather_now_item5_text1, .weather_now_item6_text1 {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D8A72F;
+}
+.weather_now_item1_text2, .weather_now_item2_text2, .weather_now_item3_text2, .weather_now_item4_text2, .weather_now_item5_text2, .weather_now_item6_text2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.weather_now_item1_text3, .weather_now_item2_text3, .weather_now_item3_text3, .weather_now_item4_text3, .weather_now_item5_text3, .weather_now_item6_text3 {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 17px;
+    color: #808080;
+}
+.weather_now_item1_icon, .weather_now_item2_icon, .weather_now_item3_icon, .weather_now_item4_icon, .weather_now_item5_icon, .weather_now_item6_icon {
+    width: 21px;
+    height: 14px;
+    left: 33px;
+    top: 491px;
+}
+.temperature_and_weather_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.temperature_and_weather_topic {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 390px;
+    height: 28px;
+    left: 0;
+    top: 0;
+}
+.all_temperature_and_weather_item{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.temperature_and_weather_item1, .temperature_and_weather_item2, .temperature_and_weather_item3, .temperature_and_weather_item4, .temperature_and_weather_item5 {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+.temperature_and_weather_item1_text1, .temperature_and_weather_item2_text1, .temperature_and_weather_item3_text1, .temperature_and_weather_item4_text1, .temperature_and_weather_item5_text1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+.temperature_and_weather_item1_text2, .temperature_and_weather_item2_text2, .temperature_and_weather_item3_text2, .temperature_and_weather_item4_text2, .temperature_and_weather_item5_text2 {
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+}
+.temperature_and_weather_item1_icon, .temperature_and_weather_item2_icon, .temperature_and_weather_item3_icon, .temperature_and_weather_item4_icon, .temperature_and_weather_item5_icon {
+    width: 40px;
+    height: 40px;
+
+}
+.Later_this_weak_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Later_this_weak_topic {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.all_temperature_and_weather_item {
+    display: flex;
+    justify-content: space-around;
+}
+.Later_this_weak_item {
+    display: flex;
+
+    justify-content: space-around;
+
+}
+.Later_this_weak_item_text_slider {
+    width: 80px;
+
+}
+.Later_this_weak_item_text1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+.Later_this_weak_item_text2, .Later_this_weak_item_text3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+
+    text-align: right;
+
+    color: #808080;
+}
+.Later_this_weak_item_icon {
+    width: 37.8px;
+    height: 38.27px;
 }
