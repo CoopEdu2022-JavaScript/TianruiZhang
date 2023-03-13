@@ -7,6 +7,7 @@ div.background{
     display: flex;
     flex-direction: column;
     background: #FCF1CC;
+
 }
 div.top-background {
 
@@ -15,6 +16,7 @@ div.top-background {
     background: #FCF1CC;
     width: 390px;
     height: 244px;
+    padding: 10px;
 
 
 
@@ -110,6 +112,7 @@ div.underneath-background {
     height: 876px;
     left: 0;
     top: 342px;
+    padding: 10px;
 
     background: #FFFFFF;
     box-shadow: 0 0 16px rgba(229, 181, 70, 0.5);
@@ -125,8 +128,8 @@ div.weather-now-box {
     display: flex;
     justify-content: space-between;
 
-    width: 390px;
-    height: 28px;
+
+    margin-top: 5px;
 
 
 }
@@ -198,10 +201,9 @@ div.weather-now-box {
 .temperature-and-weather-topic {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    width: 390px;
-    height: 35px;
-    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 .all-temperature-and-weather-item{
     display: flex;
@@ -249,9 +251,8 @@ div.weather-now-box {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 20px;
-
-    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .all-temperature-and-weather-item {
     display: flex;
