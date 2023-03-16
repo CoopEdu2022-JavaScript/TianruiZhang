@@ -7,6 +7,8 @@ div.background{
     display: flex;
     flex-direction: column;
     background: #FCF1CC;
+    width: 410px;
+    height: 1000px;
 
 }
 div.top-background {
@@ -14,9 +16,10 @@ div.top-background {
     flex-wrap: wrap;
     flex-direction: row;
     background: #FCF1CC;
-    width: 390px;
+    width: 410px;
     height: 244px;
     padding: 10px;
+    box-sizing: border-box;
 
 
 
@@ -112,7 +115,7 @@ div.underneath-background {
     top: 342px;
     padding: 10px;
 
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     box-shadow: 0 0 16px rgba(229, 181, 70, 0.5);
     border-radius: 15px 15px 0 0;
 }
