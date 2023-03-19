@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="look.css">  <!-- css -->
+  <title>Document</title>
+</head>
+
+<body>
+<!-- status bar -->
+<header>
+  <div class="notification">
+    <time>09:41</time>
+  </div>
+  <div class="status">
+    <img class="status-icon" src="/">
+    <img class="status-icon" src="/">
+    <img class="status-icon" src="/">
+  </div>
+</header>
+
+<!-- main part -->
+<main>
+  <div class="location">
+    <div id="location-bar">
+      <span id="city">Beijing,</span>
+      <span id="distirct">Chaoyang</span> District
+    </div>
+    <button id="location-button"><img src="/"></button>
+  </div>
+  <div id="date">Today 2023, February 23</div>
+  <div class="weather">
+    <div class="weather-description">
+      <span id="weather-now">Sunny</span> to
+      <span id="weather-later">cloudy</span>
+    </div>
+    <div id="temperature">12°</div>
+    <div class="weather-temperature">
+      Highest <span class="highest">16°</span>
+      Lowest <span class="lowest">-4°</span>
+    </div>
+  </div>
+  <div class="slide">
+    <button id="slide-1"></button>
+    <button id="slide-2"></button>
+    <button id="slide-3"></button>
+    <button id="slide-4"></button>
+  </div>
+</main>
+
+<div class="collapse">
+  <!-- "Weather now" -->
+  <section class="now">
+    <div class="title">Weather now</div>
+    <div class="area">
+      <div class="details" id="humidity">
+        <img class="details-icon" src="/">
+        <div class="details-key">Humidity</div>
+        <div class="details-value">34%</div>
+        <div class="details-description">Dry</div>
+      </div>
+      <div class="details" id="wind">
+        <img class="details-icon" src="/">
+        <div class="details-key">Wind</div>
+        <div class="details-value">Low</div>
+        <div class="details-description">North</div>
+      </div>
+      <div class="details" id="feels like">
+        <img class="details-icon" src="/">
+        <div class="details-key">Feels like</div>
+        <div class="details-value">10°</div>
+        <div class="details-description">Outdoors</div>
+      </div>
+      <div class="details" id="air quality">
+        <img class="details-icon" src="/">
+        <div class="details-key">Air quality</div>
+        <div class="details-value">98</div>
+        <div class="details-description">Fine</div>
+      </div>
+      <div class="details" id="sunset">
+        <img class="details-icon" src="/">
+        <div class="details-key">Sunset</div>
+        <div class="details-value">5:21</div>
+        <div class="details-description">Rise: 7:15</div>
+      </div>
+      <div class="details" id="rain fall">
+        <img class="details-icon" src="/">
+        <div class="details-key">Rain fall</div>
+        <div class="details-value">0%</div>
+        <div class="details-description">No rain</div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- "Temperature & Weather" -->
+  <!-- TODO : Random height of items and rotate lines -->
+  <section class="today">
+    <div class="title">Temperature & Weather</div>
+    <div class="area">
+      <div class="today-scrollbar">
+        <div class="today-items">
+          <div class="today-icon"><img src="/"></div>
+          <div class="today-temperature">8°</div>
+          <div class="today-time">Now</div>
+        </div>
+        <div class="today-line"></div>
+        <div class="today-items" id="today-item-1">
+          <div class="today-icon"><img src="/"></div>
+          <div class="today-temperature">7°</div>
+          <div class="today-time">5:00</div>
+        </div>
+        <div class="today-line"></div>
+        <div class="today-items" id="today-item-2">
+          <div class="today-icon"><img src="/"></div>
+          <div class="today-temperature">2°</div>
+          <div class="today-time">5:30</div>
+        </div>
+        <div class="today-line"></div>
+        <div class="today-items" id="today-item-3">
+          <div class="today-icon"><img src="/"></div>
+          <div class="today-temperature">1°</div>
+          <div class="today-time">6:00</div>
+        </div>
+        <div class="today-line"></div>
+        <div class="today-items" id="today-item-4">
+          <div class="today-icon"><img src="/"></div>
+          <div class="today-temperature">3°</div>
+          <div class="today-time">6:30</div>
+        </div>
+        <div class="today-line"></div>
+        <div class="today-items" id="today-item-5">
+          <div class="today-icon"><img src="/"></div>
+          <div class="today-temperature">2°</div>
+          <div class="today-time">7:00</div>
+        </div>
+        <div class="today-line"></div>
+        <div class="today-items" id="today-item-6">
+          <div class="today-icon"><img src="/"></div>
+          <div class="today-temperature">1°</div>
+          <div class="today-time">7:30</div>
+        </div>
+        <div class="today-line"></div>
+        <div class="today-items" id="today-item-7">
+          <div class="today-icon"><img src="/"></div>
+          <div class="today-temperature">-2°</div>
+          <div class="today-time">8:00</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- "Later This Week" -->
+  <!-- TODO : Random left padding of front bar -->
+  <section class="later">
+    <div class="title">Later This Week</div>
+    <div class="area" id="list">
+      <div class="day" id="day1">
+        <div class="later-date">Today</div>
+        <div class="later-lowest">-2°</div>
+        <div class="later-bar-back"><div class="later-bar-front"></div></div>
+        <div class="later-highest">18°</div>
+        <div class="later-icon"><img src="/"></div>
+      </div>
+      <div class="day" id="day1">
+        <div class="later-date">Fri</div>
+        <div class="later-lowest">-3°</div>
+        <div class="later-bar-back"><div class="later-bar-front"></div></div>
+        <div class="later-highest">20°</div>
+        <div class="later-icon"><img src="/"></div>
+      </div>
+      <div class="day" id="day1">
+        <div class="later-date">Sat</div>
+        <div class="later-lowest">0°</div>
+        <div class="later-bar-back"><div class="later-bar-front"></div></div>
+        <div class="later-highest">22°</div>
+        <div class="later-icon"><img src="/"></div>
+      </div>
+      <div class="day" id="day1">
+        <div class="later-date">Sun</div>
+        <div class="later-lowest">-4°</div>
+        <div class="later-bar-back"><div class="later-bar-front"></div></div>
+        <div class="later-highest">14°</div>
+        <div class="later-icon"><img src="/"></div>
+      </div>
+      <div class="day" id="day1">
+        <div class="later-date">Mon</div>
+        <div class="later-lowest">-5°</div>
+        <div class="later-bar-back"><div class="later-bar-front"></div></div>
+        <div class="later-highest">12°</div>
+        <div class="later-icon"><img src="/"></div>
+      </div>
+      <div class="day" id="day1">
+        <div class="later-date">Tue</div>
+        <div class="later-lowest">-2°</div>
+        <div class="later-bar-back"><div class="later-bar-front"></div></div>
+        <div class="later-highest">18°</div>
+        <div class="later-icon"><img src="/"></div>
+      </div>
+      <div class="day" id="day1">
+        <div class="later-date">Wed</div>
+        <div class="later-lowest">-3°</div>
+        <div class="later-bar-back"><div class="later-bar-front"></div></div>
+        <div class="later-highest">16°</div>
+        <div class="later-icon"><img src="/"></div>
+      </div>
+    </div>
+  </section>
+</div>
+</body>
+
+</html>

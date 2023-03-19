@@ -1,0 +1,293 @@
+/* background color style */
+
+html {
+    background-color: white;
+}
+
+body {
+    background-color: #fcf1cc;
+}
+
+.collapse {
+    background-color: white;
+}
+
+.later-bar-back {
+    background-color: rgba(235, 211, 151, 0.5);
+}
+
+.later-bar-front {
+    background-color: #d6a22a;
+}
+
+/* font style */
+
+time, .title, .weather-description {
+    font-weight: 500;
+}
+
+.location {
+    font-size: 20px;
+}
+
+#city {
+    font-weight: 600;
+}
+
+#temperature {
+    font-size: 128px;
+    font-weight: 200;
+}
+
+#date {
+    font-weight: 300;
+}
+
+.weather-temperature {
+    font-size: 15px;
+    font-weight: 200;
+
+}
+
+.details {
+    white-space: nowrap;
+}
+
+#date, .details-key {
+    color: #d8a72f;
+}
+
+.details-key {
+    font-weight: 200;
+}
+
+.details-value {
+    font-weight: 500;
+}
+
+.details-description, .today-time {
+    font-size: 12px;
+    font-weight: 300;
+    color: #808080;
+}
+
+.today-temperature {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.later-date {
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.later-lowest, .later-highest {
+    font-size: 16px;
+    font-weight: 600;
+    color: #808080;
+}
+
+/* layout style */
+
+body {
+    margin: 0 auto;
+    width: 390px;
+    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.collapse {
+    box-shadow: 0px 0px 16px rgba(229, 181, 70, 0.5);
+    border-radius: 15px 15px 0px 0px;
+    padding: 0 20px 20px;
+}
+
+header, main {
+    padding: 20px 20px 10px;
+}
+
+header, .location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.weather-description {
+    margin: 30px 70px -20px 0;
+}
+
+.weather-temperature {
+    margin: -20px 5px 0 0;
+}
+
+.slide {
+    text-align: center;
+}
+
+.now .area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.title {
+    padding-top: 20px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 25px auto;
+    padding: 10px;
+}
+
+.details-icon {
+    grid-area: 1 / 1 / 4 / 2;
+}
+
+.now .area {
+    margin-top: 10px;
+}
+
+.today .area, .later .area {
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.today .area {
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.today .today-scrollbar {
+    overflow-x: scroll;
+    display: flex;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}  /* https://zxuqian.cn/css-how-to-hide-scrollbars/ */
+
+.today-items {
+    text-align: center;
+}
+
+.today-line {
+    width: 20px;
+    height: 0;
+    margin-top: 20px;
+    flex-shrink: 0;
+}
+
+.today-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.later .area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.later .day {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 5fr 2fr 3fr;
+    align-items: center;
+}
+
+.later-date {
+    width: 50px;
+}
+
+.later-lowest {
+    text-align: right;
+}
+
+.later-bar-back {
+    width: 80px;
+    height: 8px;
+    margin: 0 20px;
+}
+
+.later-bar-front {
+    width: 50px;
+    height: 8px;
+    margin-left: 10px;
+}
+
+.later-icon {
+    text-align: right;
+}
+
+/* border style */
+
+.details, .area {
+    box-shadow: 0 0 8px rgba(214, 162, 42, 0.2);
+    border-radius: 15px;
+}
+
+.now .area {
+    box-shadow: none;
+}
+
+.today-icon {
+    border: 2px solid rgba(216, 167, 47, 0.5);
+    border-radius: 50%;
+}
+
+.later-bar-back, .later-bar-front {
+    border-radius: 5px;
+}
+
+.today-line {
+    border: 1px solid rgba(216, 167, 47, 0.5);
+}
+
+/* button style */
+
+#location-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    background-image: url("/demo.jpeg");
+}
+
+.slide button {
+    opacity: .4;
+    border: 3px solid #d6a22a;
+    border-radius: 3px;
+    text-align: center;
+    padding: 0;
+}
+
+#slide-1 {
+    opacity: 1;
+}
+
+#slide-4 {
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-left: 7px solid #d6a22a;
+    border-radius: unset;
+}
