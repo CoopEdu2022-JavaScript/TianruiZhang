@@ -311,6 +311,7 @@ div.weather-now-box {
     font-size: 14px;
     margin-top: 20px;
     margin-bottom: 8px;
+    
 }
 .all-temperature-and-weather-item {
     display: flex;
@@ -318,7 +319,8 @@ div.weather-now-box {
     background: #FFFFFF;
     box-shadow: 0 0 8px rgba(214, 162, 42, 0.2);
     border-radius: 15px;
-    box-sizing: border-box;
+
+
 
 
 }
@@ -327,7 +329,9 @@ div.weather-now-box {
 
     justify-content: flex-start;
     padding-left: 26px;
-    padding-top: 27.9px;
+
+    padding-top: 10px;
+    box-sizing: border-box;
 
 }
 .Later-this-weak-item-text-slider {
