@@ -1,8 +1,8 @@
 
-/** {*/
-/*    border: 1px solid black;*/
+* {
+    border: 1px solid black;
 
-/*}*/
+}
 
 /*background*/
 div.background{
@@ -287,8 +287,13 @@ div.weather-now-box {
     text-align: center;
 }
 .temperature-and-weather-item-icon {
+
+
     width: 40px;
     height: 40px;
+    margin-bottom: 15px;
+    border: 2px solid rgba(216, 167, 47, 0.5);
+    border-radius: 50%;
 
 }
 /*Later this weak*/
