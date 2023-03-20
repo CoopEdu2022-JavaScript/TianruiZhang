@@ -1,11 +1,10 @@
-
 /** {*/
 /*    border: 1px solid black;*/
 
 /*}*/
 
 /*background*/
-div.background{
+div.background {
 
 
     background: #FCF1CC;
@@ -13,6 +12,7 @@ div.background{
     height: 1000px;
 
 }
+
 div.top-background {
 
     flex-wrap: wrap;
@@ -24,8 +24,8 @@ div.top-background {
     box-sizing: border-box;
 
 
-
 }
+
 div.underneath-background {
     width: 390px;
     height: 950px;
@@ -72,7 +72,7 @@ div.address-date-box {
 
 }
 
-.address-box{
+.address-box {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -82,15 +82,14 @@ div.address-date-box {
     line-height: 28px;
 
 
-
-
 }
-.address-city{
+
+.address-city {
     font-weight: 600;
 }
 
 /*today*/
-.today{
+.today {
 
     font-weight: 300;
     font-size: 14px;
@@ -99,6 +98,7 @@ div.address-date-box {
     width: 300px;
     text-align: left;
 }
+
 .temperature-icon {
     font-style: normal;
     font-weight: 200;
@@ -120,17 +120,19 @@ div.date-time-temperature-box {
     background: #FCF1CC;
     margin-top: 18px;
 }
-.sun-and-cloud{
-     /*background-image: url("/");*/
+
+.sun-and-cloud {
+    /*background-image: url("/");*/
 }
-.date-range{
+
+.date-range {
     display: flex;
     flex-direction: column;
 
 }
 
 /*三个点*/
-.system-point{
+.system-point {
     text-align: center;
 }
 
@@ -141,6 +143,7 @@ div.weather-now-box {
     justify-content: space-between;
 
 }
+
 .weather-now-topic {
     display: flex;
     justify-content: space-between;
@@ -154,6 +157,7 @@ div.weather-now-box {
 
 
 }
+
 .weather-now-topic-text {
     font-style: normal;
     font-weight: 500;
@@ -163,21 +167,24 @@ div.weather-now-box {
     text-align: center;
 
 }
+
 .weather-now-topic-icon {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 
 }
+
 .all-weather-now-item {
     display: grid;
-    grid-template-columns: repeat(3,108px);
-    grid-template-rows: repeat(2,80px);
+    grid-template-columns: repeat(3, 108px);
+    grid-template-rows: repeat(2, 80px);
     grid-auto-flow: column;
     grid-gap: 15px;
 
 }
-.weather-now-item{
+
+.weather-now-item {
     width: 108px;
     height: 80px;
     left: 141px;
@@ -192,25 +199,29 @@ div.weather-now-box {
     justify-content: space-around;
 
 }
-.weather-now-item-text1{
+
+.weather-now-item-text1 {
     font-style: normal;
     font-weight: 200;
     font-size: 14px;
     line-height: 20px;
     color: #D8A72F;
 }
-.weather-now-item-text2{
+
+.weather-now-item-text2 {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
 }
+
 .weather-now-item-text3 {
     font-weight: 300;
     font-size: 12px;
     line-height: 17px;
     color: #808080;
 }
+
 .weather-now-item-icon {
     width: 21px;
     height: 14px;
@@ -224,6 +235,7 @@ div.weather-now-box {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .temperature-and-weather-topic {
     display: flex;
     justify-content: flex-start;
@@ -231,52 +243,50 @@ div.weather-now-box {
     margin-bottom: 8px;
 
 }
+
 ::-webkit-scrollbar {
     display: none;
 }
 
-.all-temperature-and-weather-item{
+.all-temperature-and-weather-item {
 
     box-shadow: 0 0 8px rgba(214, 162, 42, 0.2);
     border-radius: 15px;
-    overflow: hidden;
     padding-left: 10px;
-    overflow-x: scroll;
-    width: 345px;
+    overflow: hidden;: width: 345 px;
     height: 110px;
 
 
-
-
 }
+
 .all1 {
     display: flex;
     justify-content: space-around;
     background: #FFFFFF;
     width: 100000px;
     height: 110px;
-
-
-
-
+    overflow-x: scroll;
 
 
 }
-.temperature-and-weather-item{
+
+.temperature-and-weather-item {
     display: flex;
     flex-direction: column;
     height: 110px;
-
+    margin: 0 10px;
 
 
 }
-.temperature-and-weather-item-text1{
+
+.temperature-and-weather-item-text1 {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
     text-align: center;
 }
+
 .temperature-and-weather-item-text2 {
 
     font-style: normal;
@@ -287,6 +297,7 @@ div.weather-now-box {
 
     text-align: center;
 }
+
 .temperature-and-weather-item-icon {
     display: flex;
     align-items: center;
@@ -299,20 +310,23 @@ div.weather-now-box {
     border-radius: 50%;
 
 }
+
 /*Later this weak*/
 .Later-this-weak-box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .Later-this-weak-topic {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     margin-top: 20px;
     margin-bottom: 8px;
-    
+
 }
+
 .all-temperature-and-weather-item {
     display: flex;
     justify-content: space-around;
@@ -321,9 +335,8 @@ div.weather-now-box {
     border-radius: 15px;
 
 
-
-
 }
+
 .Later-this-weak-item {
     display: flex;
 
@@ -334,10 +347,12 @@ div.weather-now-box {
 
 
 }
+
 .Later-this-weak-item-text-slider {
     width: 130px;
 
 }
+
 .Later-this-weak-item-text1 {
     font-style: normal;
     font-weight: 500;
@@ -347,6 +362,7 @@ div.weather-now-box {
     width: 90px;
     height: 22.73px;
 }
+
 .Later-this-weak-item-text2, .Later-this-weak-item-text3 {
     font-style: normal;
     font-weight: 600;
@@ -360,15 +376,18 @@ div.weather-now-box {
 
     color: #808080;
 }
+
 .Later-this-weak-item-icon {
     width: 50px;
     height: 38.27px;
 }
+
 .all-Later-this-weak-item {
     background: #FFFFFF;
     box-shadow: 0 0 8px rgba(214, 162, 42, 0.2);
     border-radius: 15px;
 }
+
 .later-bar-back {
     background-color: rgba(235, 211, 151, 0.5);
     width: 80px;
